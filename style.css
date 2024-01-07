@@ -1,0 +1,46 @@
+.navebar {
+    background-color: black;
+    border-radius: 18px;
+    margin: 31px 1px;
+}
+
+.navebar ul {
+    overflow: auto;
+}
+
+.navebar li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    list-style: none;
+    margin: 21PX 8px;
+}
+
+.navebar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navebar li a:hover {
+    color: red;
+}
+
+.search {
+    float: right;
+    margin: 10px 8px;
+}
+
+.navebar ul input {
+    border-radius: 14px;
+    width: 136px;
+    text-align: center;
+}
+
+.icon-search {
+    color: white;
+    margin: 7px -4px;
+    font-size: 20px;
+}
+
+.icon-search:hover {
+    color: red;
+}
